@@ -1,0 +1,49 @@
+.Cabecera{
+  margin-top: 5px;
+  width: 350px;
+  align: left;
+  margin-left: 10px;
+}
+.MenuCabecera{
+   float: left;
+   list-style: none;
+   padding: 10px;
+
+
+ }
+ nav{
+   float: right;
+   margin-top: 80px;
+   margin-right: 550px auto;
+
+ }
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+
+}
+
+header{
+  background-color: gray;
+}
+
+.info1{
+  color: black;
+  text-align: right;
+}
+.info{
+  margin-left: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-right: 200px;
+  padding-top: 5px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  text-align: justify;
+}
+.Datos{
+  text-align: center;
+}

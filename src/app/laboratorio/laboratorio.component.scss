@@ -1,0 +1,84 @@
+.Cabecera{
+  margin-top: 5px;
+  width: 350px;
+  align: left;
+  margin-left: 10px;
+}
+.MenuCabecera{
+   float: left;
+   list-style: none;
+   padding: 10px;
+
+
+ }
+
+ nav{
+   float: right;
+   margin-top: 80px;
+   margin-right: 550px auto;
+
+ }
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+
+}
+
+.Cab{
+  background-color: gray;
+}
+
+.Laboratorios-wrapper{
+    background-color: white;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px
+}
+.Laboratorio {
+    border: 1px solid black;
+    background-color: rgb(210, 210, 219);
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.cabecera-Laboratorio{
+  text-align: center;
+}
+
+.Laboratorio .imagen-Laboratorio {
+    max-width: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+
+.buscar {
+  margin-top: 10px;
+}
+input{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: auto;
+  height: auto;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: white;
+
+}
+
+#menu * { list-style:none;}
+#menu li{ line-height:180%;}
+#menu li a{color:#222; text-decoration:none;}
+#menu li a:before{ content:"\025b8"; color:#ddd; margin-right:4px;}
+#menu input[name="list"] {
+	position: absolute;
+	left: -1000em;
+	}
+#menu label:before{ content:"\025b8"; margin-right:4px;}
+#menu input:checked ~ label:before{ content:"\025be";}
+#menu .Areas, .Servicios, .Acreditaciones, .Certificaciones{display: none;}
+#menu input:checked ~ ul{display:block;}

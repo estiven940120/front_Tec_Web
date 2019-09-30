@@ -1,0 +1,56 @@
+.Cabecera{
+  margin-top: 5px;
+  width: 350px;
+  align: left;
+  margin-left: 10px;
+}
+.MenuCabecera{
+   float: left;
+   list-style: none;
+   padding: 10px;
+
+
+ }
+ nav{
+   float: right;
+   margin-top: 80px;
+   margin-right: 550px auto;
+
+ }
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+
+}
+
+header{
+  background-color: gray;
+}
+
+.Inicio-wrapper{
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  background-color: rgb(210, 210, 219);
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Seleccionar-accion{
+  align: center;
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+
+input{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: white;
+
+}
